@@ -16,6 +16,10 @@ int main(void)
     scanf("%d",&x);
     total +=x;
   }
+  if(count == 0){
+    printf("Invalid input");
+    return 0;
+  }
   printf("\nThe average of given numbers is %.2lf !", total / count);
   return 0;
 }
